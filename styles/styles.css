@@ -39,7 +39,12 @@ aside {
     text-align: center;
 }
 
-main img {
+main img{
+    width: 200px;
+    height: auto;
+}
+
+aside img{
     width: 200px;
     height: auto;
 }
