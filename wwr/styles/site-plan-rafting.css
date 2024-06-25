@@ -47,7 +47,7 @@ nav {
 
 nav a {
     display: block;
-    color: ver(--nav-hover-link-color);
+    color: ver(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
