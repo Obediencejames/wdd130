@@ -51,11 +51,13 @@ aside {
     text-align: center;
 }
 aside h1{
-    position: absolute;
+    position: relative;
 }
 
 aside h2{
-    position: relative;
+    position: absolute;
+    top: auto;
+    left: 140px;
 
 }
 
