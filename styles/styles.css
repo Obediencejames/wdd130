@@ -90,7 +90,7 @@ footer{
 
 header, .grid, footer {
     max-width: 840px;
-    margin: 10%;
+    margin: 0 auto;
 }
 
 
