@@ -20,7 +20,7 @@ body{
     width: 100%;
     max-width: 1000px;
     height: auto;
-    margin: 0;
+    margin: 0 auto;
 }
 
 
@@ -82,6 +82,9 @@ figcaption {
 }
 
 
+
+
+
 .grid-container1 div{
     width: 100%;
     display: flex;
@@ -101,6 +104,7 @@ figcaption {
 p {
     padding: 25px;
 }
+
 
 header nav a {
     color: var(--nav-link-color);
