@@ -84,6 +84,10 @@ footer {
     border-top: 1px solid #ccc;
 }
 
+.form-item, .form-item2, .form-item3, .form-item4, .form-item5{
+    display: grid;
+    align-items: center;
+}
 
 
 
