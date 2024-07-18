@@ -32,15 +32,38 @@ header {
 
 .grid-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
     max-width: 1000px;
     margin-top: 10px;
     border: 3px solid black;
     background-color: lightblue;
-
 }
+
+.navigation  {
+	display:flex;
+	list-style: none;
+    max-width: 1000px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    border: 3px solid black;
+}
+
+nav a:link, nav a:visited {
+    display: flex;
+    color: black;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+} 
 
 .history-grid-container{
     display: flex;
@@ -62,6 +85,11 @@ header {
     background-color: lightblue;
     width: 100%;
     margin-top: 10px;
+}
+
+.logo {
+    width: 10%;
+    margin: 20px 40px;
 }
 
 figure {
@@ -92,37 +120,9 @@ figcaption {
 
 }
 
-
-.navigation  {
-	display: flex;
-	list-style: none;
-    max-width: 1000px;
-    background-color: lightblue;
-    grid-template-columns:  1fr 2px 3fr;
-}
-
 p {
     padding: 25px;
-}
-
-
-header nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-    display: flex;
-    border: 3px solid black;
-}
-
-nav a:link, nav a:visited {
-    display: flex;
-    color: black;
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}   
+}  
 
 
 .hero{
@@ -144,7 +144,7 @@ h1{
     position: absolute;
     top: 8%;
     color: white;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     width: 100%;
     padding: 20px 0;
     text-align: center;
@@ -201,4 +201,108 @@ footer p{
     float: right;
     margin-left: auto;
 
+}
+
+.employee{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+.employee img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
+
+.contact {
+    position: absolute;
+    margin: 60px 20px;
+    top: 30%;
+    height: auto;
+    text-align: center;
+    max-width: 980px;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+    
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: contain;   
+}
+
+.bus {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    background-color: lightblue;
+}
+
+.bus form {
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.contact-info {
+    grid-column: 2/2;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid black;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0px 2rem;
+    color: #333;
+    padding: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 8px;
+    margin: 0 2rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.radio-group {
+    margin-bottom: 10px;
+}
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+}
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
 }
