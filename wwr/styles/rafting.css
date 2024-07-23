@@ -337,7 +337,7 @@ button {
 
 .cta-button a {
     text-decoration : none;
-    color : #fff;
+    color : black;
 }
     
 .cta-button :hover {
@@ -618,8 +618,8 @@ th {
 }
     
 .newsletter-form {
-    color: white;
-    background-color : skyblue;
+    color: black;
+    background-color : white;
     padding : 20px;
     border-radius : 8px;
     box-shadow : 0 0 10px rgb(0, 0, 0, 0.1);
